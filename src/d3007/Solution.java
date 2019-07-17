@@ -32,27 +32,6 @@ public class Solution {
 		
 		for(int i=0; i<str.length(); i++) {
 			switch (str.charAt(i)) {
-			case 'C':
-			case 'E':
-			case 'F':
-			case 'G':
-			case 'H':
-			case 'I':
-			case 'J':
-			case 'K':
-			case 'L':
-			case 'M':
-			case 'N':
-			case 'S':
-			case 'T':
-			case 'U':
-			case 'V':
-			case 'W':
-			case 'X':
-			case 'Y':
-			case 'Z':
-				output += "0";
-				break;
 			case 'A' :
 			case 'D' :
 			case 'O' :
@@ -63,6 +42,9 @@ public class Solution {
 				break;
 			case 'B' :
 				output += "2";
+				break;
+			default :
+				output += "0";
 				break;
 			}
 		}
